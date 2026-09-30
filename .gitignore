@@ -1,0 +1,33 @@
+# Extracted data & results (proprietary / local only)
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+revelio_google_2018_entrants/
+*.csv
+!docs/*.csv
+user_ids.txt
+manifest.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Secrets / credentials
+.env
+*.key
+credentials.json
+.pgpass
+
+# Jupyter
+*.nbconvert.ipynb
